@@ -1,0 +1,13 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/app.log
+
+output.elasticsearch:
+  hosts: ["10.10.93.47:9200"]
+  index: "flask-log-%{+yyyy.MM.dd}"
+
+setup.template.name: "flask-log"
+setup.template.pattern: "flask-log-*"
+setup.ilm.enabled: false

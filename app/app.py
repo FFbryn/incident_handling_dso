@@ -3,6 +3,8 @@ import logging
 import time
 
 app = Flask(__name__)
+
+# Logging configuration
 logging.basicConfig(
     filename='app.log',
     level=logging.WARNING,
@@ -15,8 +17,12 @@ def index():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+
+    # GET -> untuk akses browser
     if request.method == 'GET':
         return "Login endpoint ready. Use POST method to authenticate."
+
+    # POST -> simulasi brute force login
     password = request.form.get('password')
 
     if password != 'admin123':
@@ -26,6 +32,7 @@ def login():
         )
         time.sleep(2)  # simple rate limiting
         return "Login Failed", 401
+
     return "Login Success", 200
 
 if __name__ == '__main__':
