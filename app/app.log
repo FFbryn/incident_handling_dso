@@ -1,0 +1,44 @@
+2025-12-24 02:35:41,346 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.93.47:5000
+2025-12-24 02:35:41,346 INFO [33mPress CTRL+C to quit[0m
+2025-12-24 02:36:05,135 INFO 192.168.50.156 - - [24/Dec/2025 02:36:05] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:36:05,303 INFO 192.168.50.156 - - [24/Dec/2025 02:36:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-24 02:36:26,885 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.93.47:5000
+2025-12-24 02:36:26,885 INFO [33mPress CTRL+C to quit[0m
+2025-12-24 02:36:40,386 INFO 192.168.50.156 - - [24/Dec/2025 02:36:40] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:36:41,089 INFO 192.168.50.156 - - [24/Dec/2025 02:36:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:36:41,260 INFO 192.168.50.156 - - [24/Dec/2025 02:36:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:36:41,409 INFO 192.168.50.156 - - [24/Dec/2025 02:36:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:36:41,639 INFO 192.168.50.156 - - [24/Dec/2025 02:36:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:39:38,141 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.93.47:5000
+2025-12-24 02:39:38,141 INFO [33mPress CTRL+C to quit[0m
+2025-12-24 02:40:41,624 INFO 192.168.50.156 - - [24/Dec/2025 02:40:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:40:42,319 INFO 192.168.50.156 - - [24/Dec/2025 02:40:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:40:42,511 INFO 192.168.50.156 - - [24/Dec/2025 02:40:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:40:42,684 INFO 192.168.50.156 - - [24/Dec/2025 02:40:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:40:42,904 INFO 192.168.50.156 - - [24/Dec/2025 02:40:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:41:22,193 WARNING Failed login attempt from IP 127.0.0.1
+2025-12-24 02:41:22,193 INFO 127.0.0.1 - - [24/Dec/2025 02:41:22] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-12-24 02:44:07,564 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.10.93.47:5000
+2025-12-24 02:44:07,565 INFO [33mPress CTRL+C to quit[0m
+2025-12-24 02:44:40,790 INFO 192.168.50.156 - - [24/Dec/2025 02:44:40] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:44:41,514 INFO 192.168.50.156 - - [24/Dec/2025 02:44:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:44:41,672 INFO 192.168.50.156 - - [24/Dec/2025 02:44:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:44:41,844 INFO 192.168.50.156 - - [24/Dec/2025 02:44:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:44:42,058 INFO 192.168.50.156 - - [24/Dec/2025 02:44:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-24 02:46:20,585 INFO 192.168.50.156 - - [24/Dec/2025 02:46:20] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2025-12-24 02:46:24,408 INFO 192.168.50.156 - - [24/Dec/2025 02:46:24] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2025-12-24 02:53:10,814 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.10.93.47:5000
+2025-12-24 02:53:10,814 INFO [33mPress CTRL+C to quit[0m
+2025-12-24 02:53:15,810 INFO 192.168.50.156 - - [24/Dec/2025 02:53:15] "GET /login HTTP/1.1" 200 -
+2025-12-24 02:53:17,458 INFO 192.168.50.156 - - [24/Dec/2025 02:53:17] "GET /login HTTP/1.1" 200 -
